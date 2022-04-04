@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: black;
+    padding: 0 20px;
+}
+
+#nav-list{
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav-list li{
+    margin: 10px;
+}
+
+#logo img{
+    width: 60px;
+}
+
+#banner{
+    height: 250px;
+    background: url(https://cdn.mos.cms.futurecdn.net/sdSHp2akMYc4EoZAoRE77k-1200-80.jpg) no-repeat;
+    background-size: cover;
+}
+
+#para{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#para p{
+    width: 70%;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #666;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+}
+
+.content img{
+    width: 30rem;
+}
+
+.hp1{
+    color: #555;
+    margin: 0 5rem 0 10rem;
+}
+
+.hp2{
+    color: #555;
+    margin: 0 10rem 0 5rem;
+}
+
+footer{
+    height: 120px;
+    background-color: #000;
+    color: #fff;
+    margin: 5rem 0 0 0;
+    padding: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#f-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ion-icon{
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+
+#f-div1 h2{
+    margin: 0 0 0.1rem 0.7rem;
+}
+
+#email{
+    width: 15rem;
+    height: 2rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: transparent solid;
+    border-radius: 5px;
+    color: #666;
+}
+
+#submit{
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    border: transparent solid;
+    border-radius: 5px;
+    background-color: #f00;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#submit:hover{
+    background-color: #e65b5b;
+}
